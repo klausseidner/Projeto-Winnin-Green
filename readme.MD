@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/klausseidner/Projeto-Winnin-Green/logo.png" width="100%" alt="
+  <img src="https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/logo.png" width="10%" alt="
   logo">
 </p>
 
@@ -126,9 +126,9 @@ Efetue o login!
 E desfrute do melhor da sua estufa Iot!
 
 
-## Referência
+## 📚 Referência
 
- - [FLÁVIO GUIMARÃES (Expert em Programação em Arduino)](https://brincandocomideias.com.br/)
+ - [Flávio Guimarães (Expert em Programação em Arduino)](https://brincandocomideias.com.br/)
  - [Automatização e monitoramento de uma estufa de alface](https://ric.cps.sp.gov.br/handle/123456789/7434)
  - [Internet das coisas (IoT) aplicada para resolução de desafios](https://www.escolavirtual.gov.br/curso/534)
  - [Ardudeck](https://github.com/klausseidner/ardudeck/)
@@ -140,7 +140,9 @@ E desfrute do melhor da sua estufa Iot!
 - [@Pedrohbar](https://github.com/Pedrohbar)
 
 **Orientador**: Prof. Andre Przewodowski Filho
+
 **Instituição de ensino**: Universidade Estácio de Sá, Campus Niterói
+
 
 ## 📌 Documentação
 
