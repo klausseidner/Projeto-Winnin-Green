@@ -45,7 +45,7 @@
 - **Frontend**: HTML e javascript
 - **Backend**: Python (Flask)
 - **Banco de Dados**: SQLite
-- **Hardware**: Arduino, modulo rele (8 canais), sensor de umidade de solo, sensor de umidade do ar, sensor de temperatura, sensor de chamas, sensor magnetico, bomba de agua, sensor de nivel de agua (boia para acionar um botão), sensor de iluminação, buzzer passivo, lampada, cooler, fonte 5v, fonte 12v, 2 multiplexadores e fita de led RGB.
+- **Hardware**: Arduino, modulo rele (8 canais), sensor de umidade de solo, sensor de umidade do ar, sensor de temperatura, sensor de chamas, sensor magnetico, bomba de agua, sensor de nivel de agua (boia para acionar um botão), sensor de iluminação, buzzer passivo, lampada, cooler, fonte 5v, fonte 12v, 2 multiplexadores , fita de led RGB e um dispositivo que rode python com acesso a internet (Android, Windows, Linux, IOS dentre outros sistemas).
 
 
 ## 📂 Estrutura do Projeto
