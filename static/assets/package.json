@@ -1,0 +1,39 @@
+{
+  "name": "ardudeck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pages/dashboard.html",
+  "directories": {
+    "example": "root"
+  },
+  "scripts": {
+    "open-app": "gulp open-app",
+    "start": "npm main open-app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klausseidner/ardudeck.git"
+  },
+  "keywords": [
+    "Ardudeck",
+    "arduino"
+  ],
+  "author": "Klaus Seidner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klausseidner/ardudeck/issues"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "sass": "^1.49.9"
+  },
+  "homepage": "https://github.com/klausseidner/ardudeck/"
+}

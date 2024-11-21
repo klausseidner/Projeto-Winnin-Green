@@ -1,0 +1,109 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Área de Trabalho {% endblock title %}
+
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="container-fluid py-4">
+    <div class="container-fluid py-4">
+        <div class="row mt-4">
+            <div class="col-lg-12 mb-lg-0 mb-4">
+                {% if plant %}
+                <!-- Card com informações da planta selecionada -->
+                <div class="card">
+                    <div class="card-body p-3">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="d-flex flex-column h-100">
+                                    <!-- Selectbox para selecionar uma nova planta -->
+                                    <form action="{{ url_for('plant_blueprint.update_dashboard_plant') }}" method="POST">
+                                        <div class="form-group">
+                                            <label for="plant_id" class="font-weight-bolder">Planta no Dashboard</label>
+                                            <select class="form-control" id="plant_id" name="plant_id" onchange="this.form.submit()">
+                                                {% for p in plants %}
+                                                    <option value="{{ p.id }}" {% if p.id == plant.id %}selected{% endif %}>{{ p.name }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </form>
+
+                                    <!-- Exibindo as informações da planta selecionada -->
+                                    <div class="info mt-3">
+                                        <p>Umidade do Solo</p>
+                                        <p>{{ soil_moisture }}%</p>
+                                    </div>
+                                    <div class="info">
+                                        <p>Umidade do Ar</p>
+                                        <p>{{ air_humidity }}%</p>
+                                    </div>
+                                    <div class="info">
+                                        <p>Temperatura do Ar</p>
+                                        <p>{{ temperature }} °C</p>
+                                    </div>
+                                    <div class="info">
+                                        <p>Porta</p>
+                                        <p>{{ 'Aberta' if door_status else 'Fechada' }}</p>
+                                    </div>
+                                    <div class="info">
+                                        <p>Reservatório de Água</p>
+                                        <p>{{ 'Cheio' if water_reserve else 'Baixo' }}</p>
+                                    </div>
+                                    <div class="info">
+                                        <p>Tempo de Atividade da Luz</p>
+                                        <div class="progress" style="height: 30px;background-color: #444;border-radius: 15px;overflow: hidden;">
+                                            <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 70%;font-weight: bold;height: 100%;margin: 0;border-radius: 15px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                                <span style="display: flex;align-items: center;justify-content: center;height: 100%;">7h de 10h</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
+                                <div class="border-radius-lg h-100">
+                                    <div class="position-relative d-flex align-items-center justify-content-center h-100">
+                                        {% if plant.image_filename %}
+                                            <img class="w-100 position-relative z-index-2 border-radius-lg"
+                                                src="{{ url_for('static', filename='uploads/' + plant.image_filename) }}" alt="Planta">
+                                        {% else %}
+                                            <img class="w-100 position-relative z-index-2 border-radius-lg" src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png"
+                                                alt="Planta">
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <!-- Exibir selectbox se não houver planta selecionada -->
+                <div class="card">
+                    <div class="card-body p-3 text-center">
+                        <h5 class="font-weight-bolder">Selecionar Planta para o Dashboard</h5>
+                        <form action="{{ url_for('plant_blueprint.update_dashboard_plant') }}" method="POST">
+                            <div class="form-group">
+                                <label for="plant_id" class="font-weight-bolder">Planta no Dashboard</label>
+                                <select class="form-control" id="plant_id" name="plant_id" onchange="this.form.submit()">
+                                    {% for p in plants %}
+                                        <option value="{{ p.id }}" {% if plant and p.id == plant.id %}selected{% endif %}>{{ p.name }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    {% include "includes/footer.html" %}
+
+</div>
+</div>
+
+{% endblock content %}
+
+{% block javascripts %}
+{% endblock javascripts %}

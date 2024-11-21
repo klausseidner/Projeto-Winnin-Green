@@ -1,0 +1,51 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Editar Planta {% endblock title %}
+
+{% block content %}
+<div class="container py-4">
+    <h3>Editar Planta: {{ plant.name }}</h3>
+    <form action="{{ url_for('plant_blueprint.edit_plant', name=plant.name) }}" method="POST" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        
+        <div class="form-group">
+            <label for="name">Nome da Planta</label>
+            {{ form.name(class="form-control") }}
+        </div>
+        
+        <div class="form-group">
+            <label for="image">Imagem da Planta</label>
+            {{ form.image(class="form-control-file") }}
+            {% if plant.image_filename %}
+                <img src="{{ url_for('static', filename='uploads/' + plant.image_filename) }}" alt="Plant Image" style="max-width: 200px; margin-top: 10px;">
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            <label for="recommended_air_humidity">Umidade do ar recomendada (%)</label>
+            {{ form.recommended_air_humidity(class="form-control") }}
+        </div>
+
+        <div class="form-group">
+            <label for="max_temperature">Temperatura máxima (°C)</label>
+            {{ form.max_temperature(class="form-control") }}
+        </div>
+
+        <div class="form-group">
+            <label for="recommended_soil_humidity">Umidade do solo recomendada (%)</label>
+            {{ form.recommended_soil_humidity(class="form-control") }}
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="set_as_current" name="set_as_current" 
+                   {% if is_current_plant %}checked disabled{% endif %}>
+            <label class="form-check-label" for="set_as_current">Definir como planta atual</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Salvar Alterações</button>
+    </form>
+</div>
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}{% endblock javascripts %}

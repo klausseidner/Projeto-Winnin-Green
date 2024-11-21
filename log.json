@@ -1,0 +1,22 @@
+{
+    "backend": "flask",
+    "db_name": "",
+    "db_pass": "",
+    "db_type": "sqlite",
+    "db_user": "",
+    "dbms": "1",
+    "description": "Sistema completo para IoT usando Arduino e Python",
+    "design": "Ardudeck IoT",
+    "docker": "0",
+    "err_code": 0,
+    "frontend": "",
+    "heroku": "0",
+    "pattern": "mvc",
+    "pro": "0",
+    "task_id": "7fecc2a6-9346-4512-95cd-348da52390a6",
+    "task_info": "Serviço iniciado!",
+    "task_result": "SUCESSO",
+    "task_state": "Executando...",
+    "task_ts_end": "2024-11-07-04-35-30",
+    "task_ts_start": "2024-11-07-04-35-30"
+}

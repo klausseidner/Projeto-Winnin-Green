@@ -1,0 +1,50 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Configurar Rotina de Luz{% endblock title %}
+
+{% block content %}
+<div class="container py-4">
+    <h3>Configurar Rotina de Luz para {{ plant.name }}</h3>
+
+    {% if not is_current_plant %}
+        <div class="alert alert-warning">
+            <strong>Atenção:</strong> Esta planta não está marcada como planta atual. Somente a planta atual será considerada para a execução da rotina de luz.
+        </div>
+    {% endif %}
+
+    <form action="{{ url_for('plant_blueprint.configure_light_schedule', name=plant.name) }}" method="POST">
+        {{ form.hidden_tag() }}
+
+        <div class="form-group">
+            <label for="monday_start">Segunda-feira</label>
+            {{ form.monday_start(class="form-control") }} - {{ form.monday_end(class="form-control") }}
+        </div>
+        <div class="form-group">
+            <label for="tuesday_start">Terça-feira</label>
+            {{ form.tuesday_start(class="form-control") }} - {{ form.tuesday_end(class="form-control") }}
+        </div>
+        <div class="form-group">
+            <label for="wednesday_start">Quarta-feira</label>
+            {{ form.wednesday_start(class="form-control") }} - {{ form.wednesday_end(class="form-control") }}
+        </div>
+        <div class="form-group">
+            <label for="thursday_start">Quinta-feira</label>
+            {{ form.thursday_start(class="form-control") }} - {{ form.thursday_end(class="form-control") }}
+        </div>
+        <div class="form-group">
+            <label for="friday_start">Sexta-feira</label>
+            {{ form.friday_start(class="form-control") }} - {{ form.friday_end(class="form-control") }}
+        </div>
+        <div class="form-group">
+            <label for="saturday_start">Sábado</label>
+            {{ form.saturday_start(class="form-control") }} - {{ form.saturday_end(class="form-control") }}
+        </div>
+        <div class="form-group">
+            <label for="sunday_start">Domingo</label>
+            {{ form.sunday_start(class="form-control") }} - {{ form.sunday_end(class="form-control") }}
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Salvar Rotina</button>
+    </form>
+</div>
+{% endblock content %}

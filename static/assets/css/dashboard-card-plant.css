@@ -1,0 +1,21 @@
+.info {
+    background-color: #3B3F51;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .info h6 {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .info p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+  }
+
+  .border-radius-lg {
+    border-radius: 15px !important;
+  }

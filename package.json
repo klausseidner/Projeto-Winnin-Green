@@ -1,0 +1,20 @@
+{
+    "name": "ardudeck",
+    "mastertemplate": "ardudeck-flask-dashboard",
+    "version": "2stable.0.1",
+    "description": "Template project - Flask ardudeck",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/klausseidner/ardudeck.git"
+    },
+    "bugs": {
+        "url": "https://github.com/klausseidner/ardudeck/issues",
+        "email": "klausseidner@hotmail.com"
+    },
+    "author": "Klaus Seidner <klausseidner@hotmail.com>",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
