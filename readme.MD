@@ -140,7 +140,9 @@ E desfrute do melhor da sua estufa Iot!
 - [@Pedrohbar](https://github.com/Pedrohbar)
 
 **Orientador**: Prof. Andre Przewodowski Filho
+
 **Instituição de ensino**: Universidade Estácio de Sá, Campus Niterói
+
 
 ## 📌 Documentação
 
