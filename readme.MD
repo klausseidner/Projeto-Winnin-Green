@@ -126,7 +126,7 @@ Efetue o login!
 E desfrute do melhor da sua estufa Iot!
 
 
-## Referência
+## 📚 Referência
 
  - [Flávio Guimarães (Expert em Programação em Arduino)](https://brincandocomideias.com.br/)
  - [Automatização e monitoramento de uma estufa de alface](https://ric.cps.sp.gov.br/handle/123456789/7434)
