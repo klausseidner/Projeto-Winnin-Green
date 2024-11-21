@@ -18,7 +18,12 @@
 
 ## 🫵 Capturas de tela
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/1.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/2.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/3.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/4.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/5.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/6.jpg)
 
 
 ## ⭐ Funcionalidades
@@ -40,7 +45,7 @@
 - **Frontend**: HTML e javascript
 - **Backend**: Python (Flask)
 - **Banco de Dados**: SQLite
-- **Hardware**: Arduino, modulo rele (8 canais), sensor de umidade de solo, sensor de umidade do ar, sensor de temperatura, sensor de chamas, sensor magnetico, bomba de agua, sensor de nivel de agua (boia para acionar um botão), sensor de iluminação, buzzer passivo, lampada, cooler, fonte 5v, fonte 12v, 2 multiplexadores e fita de led RGB.
+- **Hardware**: Arduino, modulo rele (8 canais), sensor de umidade de solo, sensor de umidade do ar, sensor de temperatura, sensor de chamas, sensor magnetico, bomba de agua, sensor de nivel de agua (boia para acionar um botão), sensor de iluminação, buzzer passivo, lampada, cooler, fonte 5v, fonte 12v, 2 multiplexadores , fita de led RGB e um dispositivo que rode python com acesso a internet (Android, Windows, Linux, IOS dentre outros sistemas).
 
 
 ## 📂 Estrutura do Projeto
