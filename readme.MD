@@ -92,6 +92,7 @@
     │   ├── layouts
     │   └── plant
     ├── .env
+    ├── Winningreen - final.pdf
     ├── config.py
     ├── db.sqlite3
     ├── deployer.json
