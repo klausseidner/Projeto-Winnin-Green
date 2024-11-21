@@ -24,6 +24,7 @@
 ![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/4.jpg)
 ![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/5.jpg)
 ![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/6.jpg)
+![Estufa IoT](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/foto.jpg)
 
 
 ## ⭐ Funcionalidades
