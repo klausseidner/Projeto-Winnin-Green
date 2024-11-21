@@ -18,7 +18,12 @@
 
 ## 🫵 Capturas de tela
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/1.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/2.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/3.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/4.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/5.jpg)
+![App Screenshot](https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/capturas%20de%20tela/6.jpg)
 
 
 ## ⭐ Funcionalidades
