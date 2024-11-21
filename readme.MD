@@ -142,8 +142,8 @@ E desfrute do melhor da sua estufa Iot!
 
 ## 🤝 Autores
 
-- [@klausseidner](https://www.github.com/klausseidner)
-- [@Pedrohbar](https://github.com/Pedrohbar)
+- [@klausseidner](https://www.github.com/klausseidner) - Klaus Seidner
+- [@Pedrohbar](https://github.com/Pedrohbar) - Pedro Henrique Barbosa Rodrigues
 
 **Orientador**: Prof. Andre Przewodowski Filho
 
