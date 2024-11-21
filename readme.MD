@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/logo.png" width="100%" alt="
+  <img src="https://github.com/klausseidner/Projeto-Winnin-Green/blob/main/logo.png" width="10%" alt="
   logo">
 </p>
 
